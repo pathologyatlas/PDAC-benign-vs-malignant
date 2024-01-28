@@ -25,7 +25,7 @@
 files=( $(find ./ -type f) )
 
 
-batch_size=4000
+batch_size=3000
 total_files=${#files[@]}
 batches=$((($total_files + $batch_size - 1) / $batch_size))
 
